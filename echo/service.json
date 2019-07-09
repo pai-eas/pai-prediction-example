@@ -1,0 +1,12 @@
+{
+	"name": "test_echo",
+	"generate_token": "true",
+	"model_path": "http://059247.oss-cn-hangzhou-zmf.aliyuncs.com/scorecard.pmml",
+	"processor_path": "./echo_processor_release.tar.gz",
+	"processor_entry": "libecho.so",
+	"processor_type": "cpp",
+	"metadata": {
+		"region": "shanghai",
+		"instance": 1
+	}
+}
