@@ -1,13 +1,13 @@
 {
 	"name": "mnist_image_classification",
 	"generate_token": "true",
-	"model_path": "http://110705.oss-cn-hangzhou-zmf.aliyuncs.com/saved_model.tar.gz",
+	"model_path": "http://eas-data.oss-cn-shanghai.aliyuncs.com/models/saved_model.tar.gz",
 	"model_entry": "./1/",
 	"processor_path": "./image_classification_processor_release.tar.gz",
 	"processor_entry": "libimage_classification.so",
 	"processor_type": "cpp",
 	"metadata": {
-		"region": "shanghai",
+		"region": "cn-shanghai",
 		"instance": 1
 	}
 }

@@ -1,6 +1,6 @@
 # download tensorflow sdk
 if (NOT EXISTS ${CMAKE_SOURCE_DIR}/sdk)
-  execute_process(COMMAND wget http://easdata.oss-cn-hangzhou-zmf.aliyuncs.com/sdk/tensorflow_sdk_cpu_1.12.0.tar.gz -O ${CMAKE_SOURCE_DIR}/tensorflow_runtime_sdk_cpu.tar.gz)
+  execute_process(COMMAND wget http://eas-data.oss-cn-shanghai.aliyuncs.com/sdk/tensorflow_sdk_cpu_1.12.0.tar.gz -O ${CMAKE_SOURCE_DIR}/tensorflow_runtime_sdk_cpu.tar.gz)
   execute_process(COMMAND tar xzf ${CMAKE_SOURCE_DIR}/tensorflow_runtime_sdk_cpu.tar.gz -C ${CMAKE_SOURCE_DIR})
   execute_process(COMMAND rm -f ${CMAKE_SOURCE_DIR}/tensorflow_runtime_sdk_cpu.tar.gz)
 endif()
