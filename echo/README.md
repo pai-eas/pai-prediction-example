@@ -2,14 +2,14 @@
 ## 本地调试
 
 ```bash
-cd build/echo
-sudo eascmd test service.json
+$ cd build/echo
+$ sudo eascmd test service.json
 [OK] Pulling image: registry.cn-shanghai.aliyuncs.com/eas/eas-worker-amd64:0.3.0
 [OK] Pull image done
 [OK] Create docker from: registry.cn-shanghai.aliyuncs.com/eas/eas-worker-amd64:0.3.0
 [OK] Create docker: 5436a2f19221eb26a007df77d0732120621a22b8988ddb577a60e97152329606
 [OK] Serving at: [http://localhost:6435/api/predict/test_echo]
-[2019-07-09 17:56:22] [172.17.0.2] Fetching model from [http://059247.oss-cn-hangzhou-zmf.aliyuncs.com/scorecard.pmml]
+[2019-07-09 17:56:22] [172.17.0.2] Fetching model from [./model]
 [2019-07-09 17:56:22] [172.17.0.2] Fetching processor from [./echo_processor_release.tar.gz]
 [2019-07-09 17:56:22] [172.17.0.2] ----------------------------SERVICE LOG--------------------------------
 [2019-07-09 17:56:22] [172.17.0.2] Uncompressing model[/home/admin/docker_ml/workspace/model]
