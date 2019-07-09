@@ -25,5 +25,5 @@ sudo eascmd test service.json
 
 两个项目的详细测试过程分别见两个源代码目录下的README
 
-+ [**echo**] 
-+ [**image_classification**] 
++ [**echo**] https://github.com/pai-eas/pai-prediction-example/tree/master/echo
++ [**image_classification**] https://github.com/pai-eas/pai-prediction-example/tree/master/image_classification
